@@ -1,0 +1,47 @@
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+
+@import "compass/reset";
+@import "bootstrap";
+
+$back-grey: #DDD0C0;
+
+$main-maroon: #700000;
+$main-dark-blue: #4291C8;	
+$main-green: #85B669;
+$main-light-blue: #B9CAE1;	
+
+.default{
+	background-color: $back-grey;
+	margin-bottom:10px;
+}
+
+// @media
+
+html, body{
+	background-color: $back-grey;			
+}
+#main-col{
+	@extend .default;			
+	padding: 0px 50px 0px;	
+}
+
+#title{
+	@extend .default;
+	background-color: #fff;
+}
+
+#navBar{
+	background-color: $main-green;
+	@extend .default;	
+}
+
+#footer{
+	@extend .default;		
+}
+// Read and understand magic grid, Suzy
+// pagewrapper with everything inside it
+// .page-wrapper
+//
