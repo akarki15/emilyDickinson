@@ -1,1 +1,1 @@
-New website layout for http://emilydickinsonmuseum.org/. A work being undertaken by Amherst College Web services. The focus of this project is to make the new website more responsive and informational than the old one. 
+New website layout for http://emilydickinsonmuseum.org - a project being undertaken by the Amherst College Web services. The focus of this project is to make the new website more responsive and informational than the old one. 
