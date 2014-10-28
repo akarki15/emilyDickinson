@@ -2,7 +2,7 @@
  * In this file you should write your main styles. (or centralize your imports)
  * Import this file using the following HTML or equivalent:
  * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
-
+@import "susy";
 @import "compass/reset";
 @import "bootstrap";
 
@@ -13,6 +13,16 @@ $main-dark-blue: #4291C8;
 $main-green: #85B669;
 $main-light-blue: #B9CAE1;	
 
+$total-columns : 7;
+$column-width : 4.25em;
+$gutter-width: 1em;
+$grid-padding: $gutter-width;
+
+
+$susy:(
+	columns:12;
+	global-box-sizing: border-box;
+	);
 .default{
 	background-color: $back-grey;
 	margin-bottom:10px;
