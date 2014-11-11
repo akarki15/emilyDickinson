@@ -2,56 +2,84 @@
  * In this file you should write your main styles. (or centralize your imports)
  * Import this file using the following HTML or equivalent:
  * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
-@import "susy";
-@import "compass/reset";
-@import "bootstrap";
+ @import "susy";
+ @import "compass/reset";
+ @import "bootstrap";
 
-$back-grey: #DDD0C0;
+ $back-grey: #DDD0C0;
 
-$main-maroon: #700000;
-$main-dark-blue: #4291C8;	
-$main-green: #85B669;
-$main-light-blue: #B9CAE1;	
+ $main-maroon: #700000;
+ $main-dark-blue: #4291C8;	
+ $main-green: #85B669;
+ $main-light-blue: #B9CAE1;	
 
-$total-columns : 7;
-$column-width : 4.25em;
-$gutter-width: 1em;
-$grid-padding: $gutter-width;
+ $wrapper-width: 800px;
+ $section-height: 100px;
 
-
-$susy:(
-	columns:12;
-	global-box-sizing: border-box;
-	);
-.default{
-	background-color: $back-grey;
-	margin-bottom:10px;
-}
-
+ .default { 
+ 	background-color: $back-grey;
+ 	max-width: $wrapper-width;
+ 	margin-left: auto;
+ 	margin-right: auto;
+ }
 // @media
 
+.outline-div{
+	   outline: red dotted;
+}
 html, body{
 	background-color: $back-grey;			
 }
-#main-col{
-	@extend .default;			
-	padding: 0px 50px 0px;	
+
+.title-section{	
+	background-color: #fff;	
+	height: $section-height;
 }
 
-#title{
+.nav-section{
+	background-color: $main-maroon;
+
+}
+
+.footer-section{
+	height: $section-height;
+}
+
+.container{
 	@extend .default;
-	background-color: #fff;
+	margin-bottom: 30px;
 }
 
-#navBar{
-	background-color: $main-green;
-	@extend .default;	
+.banner-section{
+	background-color:#fff;	
+	height: 400px;	
+}
+.floating-section{
+	@extend .outline-div;				
+	height: 100px;
+	margin-top:-50px;
 }
 
-#footer{
-	@extend .default;		
+.hours-section{
+	@extend .outline-div;				
+	height: 80px;
 }
-// Read and understand magic grid, Suzy
-// pagewrapper with everything inside it
-// .page-wrapper
-//
+
+.news-poem{
+	@extend .outline-div;				
+	height: 150px;
+}
+
+.expansion-section{
+	@extend .outline-div;				
+	height: 200px;
+}
+.footer-section{
+	@extend .outline-div;				
+	height: 200px;	
+}
+.news-section, .poem-section, .left-footer, .right-footer{
+	outline: blue dotted;
+	height: 100%;	
+}
+
