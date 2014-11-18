@@ -2,7 +2,7 @@
  * In this file you should write your main styles. (or centralize your imports)
  * Import this file using the following HTML or equivalent:
  * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
- @import "susy";
+
  @import "compass/reset";
  @import "bootstrap";
 
@@ -37,8 +37,8 @@ html, body{
 }
 
 .nav-section{
-	background-color: $main-maroon;
-
+	background-color: $main-green;
+	border-radius: 0px;
 }
 
 .footer-section{
@@ -53,11 +53,13 @@ html, body{
 .banner-section{
 	background-color:#fff;	
 	height: 400px;	
+	border-radius:0px;
 }
 .floating-section{
-	@extend .outline-div;				
-	height: 100px;
+	@extend .outline-div;					
+	margin: 0 10%;
 	margin-top:-50px;
+	border-radius:0px;
 }
 
 .hours-section{
@@ -66,8 +68,7 @@ html, body{
 }
 
 .news-poem{
-	@extend .outline-div;				
-	height: 150px;
+	@extend .outline-div;					
 }
 
 .expansion-section{
@@ -83,3 +84,10 @@ html, body{
 	height: 100%;	
 }
 
+.inactive-button{
+	background-color:$main-maroon;
+}
+
+.green-button{
+	background-color:$main-green; 
+}

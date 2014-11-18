@@ -8119,7 +8119,8 @@ html, body {
 
 /* line 39, ../sass/screen.scss */
 .nav-section {
-  background-color: #700000;
+  background-color: #85B669;
+  border-radius: 0px;
 }
 
 /* line 44, ../sass/screen.scss */
@@ -8136,36 +8137,43 @@ html, body {
 .banner-section {
   background-color: #fff;
   height: 400px;
+  border-radius: 0px;
 }
 
-/* line 57, ../sass/screen.scss */
+/* line 58, ../sass/screen.scss */
 .floating-section {
-  height: 100px;
+  margin: 0 10%;
   margin-top: -50px;
+  border-radius: 0px;
 }
 
-/* line 63, ../sass/screen.scss */
+/* line 65, ../sass/screen.scss */
 .hours-section {
   height: 80px;
 }
 
-/* line 68, ../sass/screen.scss */
-.news-poem {
-  height: 150px;
-}
-
-/* line 73, ../sass/screen.scss */
+/* line 74, ../sass/screen.scss */
 .expansion-section {
   height: 200px;
 }
 
-/* line 77, ../sass/screen.scss */
+/* line 78, ../sass/screen.scss */
 .footer-section {
   height: 200px;
 }
 
-/* line 81, ../sass/screen.scss */
+/* line 82, ../sass/screen.scss */
 .news-section, .poem-section, .left-footer, .right-footer {
   outline: blue dotted;
   height: 100%;
+}
+
+/* line 87, ../sass/screen.scss */
+.inactive-button {
+  background-color: #700000;
+}
+
+/* line 91, ../sass/screen.scss */
+.green-button {
+  background-color: #85B669;
 }

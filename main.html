@@ -3,18 +3,56 @@
 
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
+	
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
+	
 	<title>Sample Emily Dickinson</title>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>	
+	<script src="javascripts/bootstrap.js"></script>
+	
 </head>
+
 	<div class ="container">
 	<!-- max width is 1200 px -->
 	<div class="title-section">Title</div>
 			
-	<div class="nav-section"> Navigation </div>
-	<div class="banner-section">Banner</div>
-	<div class="floating-section">Floating-Description</div>
+	<div class="navbar navbar-default navbar-static-top" role="navigation">
+		<div class="container-fluid">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">    	
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>          
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="#">Home</a></li>
+            <li class="inactive-button"><a href="#">Visit</a></li>
+            <li class="inactive-button"><a href="#">Calendar</a></li>
+            <li class="inactive-button"><a href="#">Education</a></li>
+            <li class="inactive-button"><a href="#">The Museuem</a></li>
+            <li class="inactive-button"><a href="#">Shop</a></li>
+            <li class="green-button"><a href="#">Join</a></li>
+            <li class="green-button"><a href="#">Donate</a></li>
+          </ul>          
+        </div><!--/.nav-collapse -->
+      </div>
+	</div>
+
+	<div class="banner-section jumbotron">
+        <h1>Jumbotron heading</h1>
+        <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus explicabo, minus, quidem nesciunt impedit eos vitae, excepturi nemo alias consequatur voluptatum ipsam animi ipsum iusto quasi soluta sed. Amet, sequi.</p>
+        
+      </div>
+
+
+	
+	<div class="jumbotron floating-section"><p>Lorem ipsum dolor sit amet, consectetur adipisicing.</p><p><a class="btn btn-lg btn-success" href="#" role="button">Learn more</a></p></div>
 	<div class="main-section">
 		<div class="hours-section">Hours</div>
 		<div class="news-poem">
@@ -28,11 +66,9 @@
 		<div class="left-footer col-md-6">Left part</div>
 		<div class="right-footer col-md-6">Right part</div>	
 	</div>
-	</div>
-	
+	</div>	
 
 <body>
 	
 </body>
 </html>
-
