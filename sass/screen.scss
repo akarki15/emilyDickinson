@@ -45,7 +45,7 @@ html, body{
 	height: $section-height;
 }
 
-.container{
+.page-wrapper{
 	@extend .default;
 	margin-bottom: 30px;
 }
@@ -63,8 +63,8 @@ html, body{
 }
 
 .hours-section{
-	@extend .outline-div;				
-	height: 80px;
+	@extend .outline-div;	
+	height: 100px;			
 }
 
 .news-poem{
@@ -90,4 +90,11 @@ html, body{
 
 .green-button{
 	background-color:$main-green; 
+}
+.vertical-text{
+	-webkit-transform: rotate(90deg);   
+	-moz-transform: rotate(90deg);
+	-ms-transform: rotate(90deg);
+	-o-transform: rotate(90deg);
+	transform: rotate(90deg);
 }

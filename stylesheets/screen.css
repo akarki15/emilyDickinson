@@ -8094,7 +8094,7 @@ button.close {
   }
 }
 /* line 19, ../sass/screen.scss */
-.default, .container {
+.default, .page-wrapper {
   background-color: #DDD0C0;
   max-width: 800px;
   margin-left: auto;
@@ -8129,7 +8129,7 @@ html, body {
 }
 
 /* line 48, ../sass/screen.scss */
-.container {
+.page-wrapper {
   margin-bottom: 30px;
 }
 
@@ -8149,7 +8149,7 @@ html, body {
 
 /* line 65, ../sass/screen.scss */
 .hours-section {
-  height: 80px;
+  height: 100px;
 }
 
 /* line 74, ../sass/screen.scss */
@@ -8176,4 +8176,13 @@ html, body {
 /* line 91, ../sass/screen.scss */
 .green-button {
   background-color: #85B669;
+}
+
+/* line 94, ../sass/screen.scss */
+.vertical-text {
+  -webkit-transform: rotate(90deg);
+  -moz-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  -o-transform: rotate(90deg);
+  transform: rotate(90deg);
 }
