@@ -8186,3 +8186,36 @@ html, body {
   -o-transform: rotate(90deg);
   transform: rotate(90deg);
 }
+
+/* line 101, ../sass/screen.scss */
+.no-padding {
+  padding: 0;
+}
+
+/* line 106, ../sass/screen.scss */
+#navbar > ul > li > a {
+  color: #e8e8e8;
+}
+
+/* line 109, ../sass/screen.scss */
+#navbar > ul > li.active > a {
+  color: #700000;
+}
+
+/* line 112, ../sass/screen.scss */
+.container {
+  padding-left: 0px;
+}
+
+/* line 116, ../sass/screen.scss */
+.navbar-inner ul.nav {
+  margin-right: 0;
+  float: none;
+  width: 100%;
+}
+
+/* line 121, ../sass/screen.scss */
+.navbar-inner ul.nav li {
+  width: 100px;
+  text-align: center;
+}

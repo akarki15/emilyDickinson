@@ -85,7 +85,7 @@ html, body{
 }
 
 .inactive-button{
-	background-color:$main-maroon;
+	background-color:$main-maroon;	
 }
 
 .green-button{
@@ -97,4 +97,28 @@ html, body{
 	-ms-transform: rotate(90deg);
 	-o-transform: rotate(90deg);
 	transform: rotate(90deg);
+}
+.no-padding{
+	padding: 0;
+}
+// Overridding bootstrap navbar 
+
+#navbar > ul > li > a{
+	color: rgb(232, 232, 232);
+}
+#navbar > ul > li.active > a{
+	color: $main-maroon;
+}
+.container{
+	padding-left:0px;
+}
+// so that buttons span entire width
+.navbar-inner ul.nav {
+  margin-right: 0;
+  float: none;
+  width: 100%;
+}
+.navbar-inner ul.nav li {
+  width: 100px;
+  text-align: center;
 }
